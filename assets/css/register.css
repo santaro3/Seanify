@@ -1,0 +1,151 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+#background {
+	background-color: #000;
+	background-image: url(../images/register-background.jpg);
+	background-position: center;
+	background-size: cover;
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+#loginContainer * {
+	color: #fff;
+	font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-weight: normal;
+	line-height: 1em;
+	box-sizing: border-box;
+}
+
+#loginContainer {
+	width: 80%;
+	margin: 5% auto;
+	position: relative;
+	max-width: 1024px;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #fff;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #fff;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #fff;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #fff;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #fff;
+}
+
+::placeholder { /* Most modern browsers support this now. */
+   color:    #fff;
+}
+
+#inputContainer {
+	width: 400px;
+	padding: 45px;
+	float: left;
+	border-right: 2px solid #999;
+}
+
+#inputContainer h2 {
+	text-align: center;
+}
+
+#inputContainer input[type="text"],
+#inputContainer input[type="password"],
+#inputContainer input[type="email"] {
+	display: block;
+	background-color: transparent;
+	border: 0px;
+	border-bottom: 2px solid #fff;
+	height: 27px;
+	line-height: 27px;
+	width: 100%;
+}
+
+#inputContainer label {
+	color: #a0a0a0;
+	font-size: 12px;
+	display: block;
+	margin-top: 15;
+}
+
+
+#inputContainer button {
+	background-color: transparent;
+	border: 3px solid #fff;
+	border-radius: 100px;
+	color: white;
+	display:block;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 20px auto;
+	height: 41px;
+	width: 100%;
+}
+
+#inputContainer button:hover {
+	cursor: pointer;
+}
+
+
+#inputContainer .errorMessage {
+	color: #07d159;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+}
+
+
+.hasAccountText span {
+	font-weight: bold;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.hasAccountText {
+	text-align: center;
+}
+
+#registerForm, #loginForm {
+	display: none;
+}
+
+#loginText {
+	padding: 45px;
+	display: table-cell;
+}
+
+#LoginText h1 {
+	color: #07D159;
+	font-size: 60px;
+	font-weight: bold;
+}
+
+#LoginText h2 {
+	margin: 35px 0;
+}
+
+#LoginText ul {
+	padding: 0;
+}
+
+#LoginText li {
+	font-size: 20px;
+	list-style-type: none;
+	padding: 5px 30px;
+	background: url(../images/icons/musicIcon.png) no-repeat 0 0;
+}
+
+
